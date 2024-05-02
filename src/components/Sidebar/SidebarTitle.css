@@ -1,0 +1,21 @@
+.sidebar-title-container{
+    height: 48px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ECECED;
+    /* padding-left: 8px; */
+}
+
+.sidebar-title-container img{
+    margin: 8px;
+    width: 20px;
+    height: 24px;
+}
+
+.sidebar-title-container h1{
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 1px;
+}
+

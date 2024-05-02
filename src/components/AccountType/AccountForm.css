@@ -1,0 +1,102 @@
+.account-container{
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+.account-container h2{
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.account-form{
+    max-width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 19px;
+}
+
+.account-input{
+    width: 48%;
+    position: relative;
+}
+
+.account-input-full{
+    width: 98%;
+}
+
+.account-input label{
+    font-size: 11px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    background: #fff;
+    padding: 0px 5px;
+    z-index: 1;
+
+}
+
+.account-input input{
+    position: relative;
+    margin-top: 7px;
+    font-size: 15px;
+    width: 100%;
+    background: transparent;
+    color: #222;
+    border: 1px solid #E3E3E4;
+    border-radius: 6px;
+    padding: 16px 0px 16px 7px;
+}
+
+.checked-email{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+
+
+}
+
+.profile-picture{
+    width: 144px;
+    height: 144px;
+    margin-right: 8px;
+    background: #000;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.profile-picture img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.account-submit{
+    background: #1688FE;
+    height: 40px;
+    width: 170px;
+    text-align: center;
+    border: none;
+    border-radius: 7px;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.account-submit:hover{
+    background: #439eff;
+    
+}
+
+@media only screen and (max-width: 850px) {
+    .account-input{
+        width: 97%;
+        position: relative;
+    }
+  }

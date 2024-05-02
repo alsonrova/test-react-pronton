@@ -1,0 +1,27 @@
+.account-delete{
+    width: 100%;
+    margin: 20px 0px 35px 0px;
+    border: 1px solid #E3E3E4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.account-delete h2{
+    font-size: 17px;
+
+}
+
+.account-delete p{
+    margin: 10px 0px;
+}
+
+.delete-button{
+    color:#b31d39;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.delete-button:hover{
+    color:#de7c8e;
+
+}
