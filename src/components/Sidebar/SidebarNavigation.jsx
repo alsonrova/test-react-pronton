@@ -20,6 +20,7 @@ function SidebarNavigation() {
     const [favoriteSearch, setFavoriteSearch] = useState(
         [
             "Database Administrator",
+            "Database Administrator","Database Administrator","Database Administrator","Database Administrator","Database Administrator","Database Administrator","Database Administrator","Database Administrator","Database Administrator","Database Administrator","Database Administrator",
             "Something"
         ]
     )
